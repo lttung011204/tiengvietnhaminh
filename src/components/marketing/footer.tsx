@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/ui/container";
 import { Logo } from "@/components/brand/logo";
+import { Link2, Mail, MessageCircle } from "lucide-react";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -43,9 +44,28 @@ export function Footer() {
 
         <div>
           <h3 className="text-sm font-semibold text-espresso-800">{t("contact")}</h3>
-          <ul className="mt-4 space-y-2 text-sm text-espresso-400">
-            <li>hello@tiengvietnhaminh.com</li>
-            <li>WhatsApp / Zalo</li>
+          <ul className="mt-4 space-y-3 text-sm text-espresso-400">
+            <li>
+              <a
+                href="https://www.facebook.com/tiengvietnhaminh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-terracotta-600"
+              >
+                <Link2 size={16} className="shrink-0" />
+                Fanpage Facebook
+              </a>
+            </li>
+            <li>
+              <a href="mailto:tiengviettoantienganh@gmail.com" className="flex items-center gap-2 hover:text-terracotta-600">
+                <Mail size={16} className="shrink-0" />
+                tiengviettoantienganh@gmail.com
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <MessageCircle size={16} className="shrink-0" />
+              Zalo: 0906 853 296
+            </li>
           </ul>
         </div>
       </Container>

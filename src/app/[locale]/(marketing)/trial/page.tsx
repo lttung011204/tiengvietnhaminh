@@ -10,6 +10,9 @@ export default function TrialPage() {
       <Container className="max-w-2xl">
         <h1 className="font-display text-3xl font-semibold text-espresso-900 sm:text-4xl">{t("title")}</h1>
         <p className="mt-3 text-lg text-espresso-500">{t("subtitle")}</p>
+        <p className="mt-4 inline-block rounded-full bg-terracotta-50 px-4 py-2 text-sm font-medium text-terracotta-700">
+          {t("trustNote")}
+        </p>
 
         <div className="mt-10 rounded-3xl border border-espresso-100/70 bg-cream-50 p-6 shadow-soft sm:p-10">
           <TrialForm />

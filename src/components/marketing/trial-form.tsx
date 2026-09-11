@@ -120,6 +120,7 @@ export function TrialForm() {
               —
             </option>
             <option value={t("contactOptions.phone")}>{t("contactOptions.phone")}</option>
+            <option value={t("contactOptions.zalo")}>{t("contactOptions.zalo")}</option>
             <option value={t("contactOptions.whatsapp")}>{t("contactOptions.whatsapp")}</option>
             <option value={t("contactOptions.email")}>{t("contactOptions.email")}</option>
           </select>

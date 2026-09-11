@@ -1,14 +1,10 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/motion/reveal";
 
 export function Audience() {
   const t = useTranslations("audience");
-
-  const cards = [
-    { key: "kids", emoji: "🧒", tone: "from-terracotta-300 to-terracotta-500" },
-    { key: "adults", emoji: "🌱", tone: "from-gold-300 to-gold-500" },
-  ] as const;
 
   return (
     <section className="py-4 sm:py-6">
@@ -20,18 +16,32 @@ export function Audience() {
         </Reveal>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2">
-          {cards.map((card, i) => (
-            <Reveal key={card.key} delay={i * 0.08}>
-              <div className="relative overflow-hidden rounded-3xl bg-cream-50 p-8 shadow-soft">
-                <div className={`absolute -top-10 -right-10 h-36 w-36 rounded-full bg-gradient-to-br ${card.tone} opacity-25 blur-2xl`} />
-                <span className="text-4xl">{card.emoji}</span>
-                <h3 className="mt-4 font-display text-2xl font-semibold text-espresso-900">
-                  {t(`${card.key}.title`)}
-                </h3>
-                <p className="mt-3 text-espresso-500">{t(`${card.key}.desc`)}</p>
+          <Reveal>
+            <div className="overflow-hidden rounded-3xl bg-cream-50 shadow-soft">
+              <div className="relative h-56 w-full overflow-hidden">
+                <Image
+                  src="/images/kids-illustration.png"
+                  alt={t("kids.title")}
+                  fill
+                  sizes="(min-width: 640px) 50vw, 100vw"
+                  className="object-cover object-top"
+                />
               </div>
-            </Reveal>
-          ))}
+              <div className="p-8">
+                <h3 className="font-display text-2xl font-semibold text-espresso-900">{t("kids.title")}</h3>
+                <p className="mt-3 text-espresso-500">{t("kids.desc")}</p>
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.08}>
+            <div className="relative h-full overflow-hidden rounded-3xl bg-cream-50 p-8 shadow-soft">
+              <div className="absolute -top-10 -right-10 h-36 w-36 rounded-full bg-gradient-to-br from-gold-300 to-gold-500 opacity-25 blur-2xl" />
+              <span className="text-4xl">🌱</span>
+              <h3 className="mt-4 font-display text-2xl font-semibold text-espresso-900">{t("adults.title")}</h3>
+              <p className="mt-3 text-espresso-500">{t("adults.desc")}</p>
+            </div>
+          </Reveal>
         </div>
       </Container>
     </section>

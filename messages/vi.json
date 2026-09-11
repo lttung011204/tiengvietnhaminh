@@ -37,9 +37,9 @@
     "title": "Hành trình học cùng Nhà Mình",
     "steps": [
       { "title": "Đăng ký học thử", "desc": "Điền thông tin, chúng tôi liên hệ trong 24–48 giờ." },
-      { "title": "Đánh giá trình độ", "desc": "Giáo viên trò chuyện để hiểu khả năng và mục tiêu của học viên." },
+      { "title": "Học thử miễn phí", "desc": "Gặp gỡ, kết nối cùng giáo viên và đánh giá trình độ ban đầu." },
       { "title": "Đề xuất lộ trình phù hợp", "desc": "Chọn chương trình và cấp độ phù hợp nhất với từng học viên." },
-      { "title": "Bắt đầu học tập", "desc": "Học cùng giáo viên và hệ thống bài học trực tuyến sinh động." }
+      { "title": "Học tập & tiến bộ mỗi ngày", "desc": "Đồng hành cùng giáo viên, cam kết tiến bộ rõ rệt theo thời gian." }
     ]
   },
   "kidsExperience": {
@@ -60,9 +60,13 @@
     "viewProgram": "Xem chương trình"
   },
   "teachers": {
-    "title": "Đội ngũ giáo viên",
-    "subtitle": "Giáo viên người Việt tận tâm, giàu kinh nghiệm giảng dạy cho gia đình xa quê.",
-    "yearsExperience": "năm kinh nghiệm"
+    "title": "Giáo viên tâm huyết, đồng hành cùng con",
+    "subtitle": "Nhà Mình lựa chọn kỹ lưỡng đội ngũ giáo viên có trình độ chuyên môn cao, nhiệt tình và tâm huyết với từng học viên — thấu hiểu hành trình giữ gìn tiếng Việt của gia đình xa quê.",
+    "commitments": [
+      { "title": "Trình độ chuyên môn cao", "desc": "Được đào tạo bài bản, vững chuyên môn giảng dạy tiếng Việt." },
+      { "title": "Nhiệt tình, tận tâm", "desc": "Luôn kiên nhẫn, ấm áp và thấu hiểu từng học viên." },
+      { "title": "Đồng hành cùng sự tiến bộ", "desc": "Theo sát quá trình học và cam kết tiến bộ rõ rệt của con." }
+    ]
   },
   "testimonials": {
     "title": "Phụ huynh nói gì về Nhà Mình",
@@ -95,7 +99,8 @@
   },
   "trialForm": {
     "title": "Đăng ký học thử miễn phí",
-    "subtitle": "Điền thông tin bên dưới, đội ngũ Nhà Mình sẽ liên hệ trong vòng 24–48 giờ.",
+    "subtitle": "Điền thông tin bên dưới để nhận 1 buổi học thử miễn phí — cơ hội kết nối cùng giáo viên phù hợp và cảm nhận sự tiến bộ ngay từ buổi đầu tiên.",
+    "trustNote": "1 buổi học thử miễn phí  ·  Kết nối cùng giáo viên phù hợp  ·  Cam kết đồng hành cùng sự tiến bộ của con",
     "fields": {
       "parentName": "Họ tên phụ huynh",
       "studentName": "Họ tên học viên",
@@ -103,7 +108,7 @@
       "country": "Quốc gia / múi giờ",
       "vietnameseLevel": "Trình độ tiếng Việt hiện tại",
       "learningGoal": "Mục tiêu học tập",
-      "phone": "Số điện thoại / WhatsApp",
+      "phone": "Số điện thoại / Zalo",
       "email": "Email",
       "preferredContactMethod": "Phương thức liên hệ ưu tiên",
       "preferredClassTime": "Thời gian học mong muốn"
@@ -121,6 +126,7 @@
     },
     "contactOptions": {
       "phone": "Gọi điện",
+      "zalo": "Zalo",
       "whatsapp": "WhatsApp",
       "email": "Email"
     },

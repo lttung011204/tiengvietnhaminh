@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
   const t = useTranslations("hero");
+  const tTrial = useTranslations("trialForm");
 
   return (
     <section className="relative overflow-hidden pt-16 pb-20 sm:pt-24 sm:pb-28">
@@ -41,6 +42,7 @@ export function Hero() {
               {t("ctaSecondary")}
             </Button>
           </div>
+          <p className="mt-5 text-sm text-espresso-400">{tTrial("trustNote")}</p>
         </motion.div>
 
         <motion.div

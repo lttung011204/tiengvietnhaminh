@@ -37,9 +37,9 @@
     "title": "How learning works",
     "steps": [
       { "title": "Book a trial class", "desc": "Tell us about your family — we'll reach out within 24–48 hours." },
-      { "title": "We assess the level", "desc": "A teacher chats with your student to understand ability and goals." },
+      { "title": "Free trial class", "desc": "Meet and connect with a teacher, and get an initial level assessment." },
       { "title": "We recommend a path", "desc": "The right program and level, matched to your student." },
-      { "title": "Learning begins", "desc": "Live teacher sessions plus an engaging online lesson system." }
+      { "title": "Learning & progress, every day", "desc": "Ongoing sessions with your teacher — we're committed to real progress." }
     ]
   },
   "kidsExperience": {
@@ -60,8 +60,13 @@
     "viewProgram": "View program"
   },
   "teachers": {
-    "title": "Meet our teachers",
-    "subtitle": "Native Vietnamese teachers who love working with families abroad.",
+    "title": "Teachers who truly care",
+    "subtitle": "We carefully select teachers who are highly qualified, enthusiastic, and deeply committed to every student — each one understands what it means to help a family hold onto Vietnamese from far away.",
+    "commitments": [
+      { "title": "Highly qualified", "desc": "Properly trained, with strong Vietnamese-teaching expertise." },
+      { "title": "Enthusiastic & dedicated", "desc": "Patient, warm, and attentive to every student." },
+      { "title": "Committed to real progress", "desc": "Closely tracking each student's journey toward visible progress." }
+    ],
     "yearsExperience": "years experience"
   },
   "testimonials": {
@@ -95,7 +100,8 @@
   },
   "trialForm": {
     "title": "Book a Free Trial Class",
-    "subtitle": "Fill in the details below — our team will reach out within 24–48 hours.",
+    "subtitle": "Fill in the details below for a free trial class — a chance to connect with the right teacher and feel the progress from day one.",
+    "trustNote": "One free trial class  ·  Connect with the right teacher  ·  We're committed to your child's progress",
     "fields": {
       "parentName": "Parent's full name",
       "studentName": "Student's full name",
@@ -103,7 +109,7 @@
       "country": "Country / time zone",
       "vietnameseLevel": "Current Vietnamese level",
       "learningGoal": "Learning goal",
-      "phone": "Phone / WhatsApp number",
+      "phone": "Phone / Zalo number",
       "email": "Email",
       "preferredContactMethod": "Preferred contact method",
       "preferredClassTime": "Preferred class time"
@@ -121,6 +127,7 @@
     },
     "contactOptions": {
       "phone": "Phone call",
+      "zalo": "Zalo",
       "whatsapp": "WhatsApp",
       "email": "Email"
     },
