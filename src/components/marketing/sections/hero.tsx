@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
+import { Highlight } from "@/components/marketing/highlight";
+import { Sparkles, HeartHandshake } from "lucide-react";
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -31,7 +33,7 @@ export function Hero() {
             {t("eyebrow")}
           </span>
           <h1 className="mt-6 font-display text-4xl leading-tight font-semibold text-balance text-espresso-900 sm:text-5xl lg:text-[3.25rem]">
-            {t("title")}
+            {t.rich("title", { highlight: (chunks) => <Highlight>{chunks}</Highlight> })}
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-espresso-600">{t("subtitle")}</p>
           <div className="mt-9 flex flex-wrap gap-4">
@@ -63,9 +65,17 @@ export function Hero() {
               />
             </div>
           </div>
-          <div className="absolute -bottom-6 -left-6 rounded-2xl bg-cream-50 px-5 py-4 shadow-soft-lg">
-            <p className="font-display text-2xl text-terracotta-600">1,000+</p>
-            <p className="text-xs text-espresso-400">families learning together</p>
+          <div className="absolute -bottom-6 -left-6 flex items-center gap-2.5 rounded-2xl bg-cream-50 px-5 py-4 shadow-soft-lg">
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-terracotta-100 text-terracotta-600">
+              <Sparkles size={17} />
+            </span>
+            <p className="text-sm font-semibold text-espresso-800">{t("badge1")}</p>
+          </div>
+          <div className="absolute -top-5 -right-5 hidden items-center gap-2.5 rounded-2xl bg-cream-50 px-5 py-4 shadow-soft-lg sm:flex">
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold-100 text-gold-600">
+              <HeartHandshake size={17} />
+            </span>
+            <p className="text-sm font-semibold text-espresso-800">{t("badge2")}</p>
           </div>
         </motion.div>
       </Container>

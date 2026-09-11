@@ -1,10 +1,13 @@
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/motion/reveal";
-import { Volume2 } from "lucide-react";
+import { Volume2, Image as ImageIcon, Repeat } from "lucide-react";
+
+const BADGE_ICONS = [ImageIcon, Volume2, Repeat];
 
 export function KidsExperience() {
   const t = useTranslations("kidsExperience");
+  const badges = t.raw("badges") as string[];
 
   const sampleCards = [
     { emoji: "🍎", vi: "Quả táo", en: "Apple" },
@@ -19,6 +22,20 @@ export function KidsExperience() {
           <h2 className="font-display text-3xl font-semibold text-espresso-900 sm:text-4xl">{t("title")}</h2>
           <p className="mt-4 max-w-md text-lg text-espresso-500">{t("subtitle")}</p>
           <p className="mt-4 max-w-md text-sm text-espresso-400">{t("note")}</p>
+
+          <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3">
+            {badges.map((label, i) => {
+              const Icon = BADGE_ICONS[i % BADGE_ICONS.length];
+              return (
+                <span key={label} className="inline-flex items-center gap-2 text-sm font-medium text-espresso-600">
+                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-terracotta-100 text-terracotta-600">
+                    <Icon size={14} />
+                  </span>
+                  {label}
+                </span>
+              );
+            })}
+          </div>
         </Reveal>
 
         <Reveal delay={0.1}>

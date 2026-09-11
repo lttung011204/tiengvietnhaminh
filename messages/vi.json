@@ -12,10 +12,12 @@
   },
   "hero": {
     "eyebrow": "Dành cho gia đình Việt xa quê",
-    "title": "Giúp con giữ gìn tiếng Việt, gắn kết gia đình và cội nguồn",
+    "title": "Giúp con giữ gìn <highlight>tiếng Việt</highlight>, gắn kết gia đình và cội nguồn",
     "subtitle": "Lớp học tiếng Việt trực tuyến dành cho trẻ em và gia đình Việt Nam lớn lên ở nước ngoài — ấm áp, bài bản và dễ đồng hành.",
     "ctaPrimary": "Đăng ký học thử miễn phí",
-    "ctaSecondary": "Khám phá chương trình học"
+    "ctaSecondary": "Khám phá chương trình học",
+    "badge1": "Học thử miễn phí",
+    "badge2": "Giáo viên người Việt tận tâm"
   },
   "trust": {
     "title": "Vì sao phụ huynh chọn Nhà Mình",
@@ -45,6 +47,7 @@
   "kidsExperience": {
     "title": "Trẻ học tiếng Việt như thế nào?",
     "subtitle": "Mỗi bài học là một bộ flashcard hình ảnh — đơn giản, trực quan và rất dễ thương với các bé.",
+    "badges": ["Flashcard hình ảnh", "Âm thanh chuẩn giọng Việt", "Ôn tập nhẹ nhàng"],
     "card": { "emoji": "🍎", "word": "Quả táo", "translation": "Apple", "listen": "Nghe phát âm" },
     "note": "Sau flashcard là một hoạt động ôn tập ngắn — chọn từ đúng, nghe và chọn, hoặc ghép hình với từ."
   },

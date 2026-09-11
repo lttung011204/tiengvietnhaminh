@@ -12,10 +12,12 @@
   },
   "hero": {
     "eyebrow": "For Vietnamese families abroad",
-    "title": "Help your child stay connected to Vietnamese language, family and culture",
+    "title": "Help your child stay connected to <highlight>Vietnamese</highlight> language, family and culture",
     "subtitle": "Online Vietnamese lessons designed for Vietnamese children and families growing up abroad — warm, structured, and easy to follow along with.",
     "ctaPrimary": "Book a Free Trial Class",
-    "ctaSecondary": "Explore Programs"
+    "ctaSecondary": "Explore Programs",
+    "badge1": "Free trial class",
+    "badge2": "Dedicated Vietnamese teachers"
   },
   "trust": {
     "title": "Why families choose Nhà Mình",
@@ -45,6 +47,7 @@
   "kidsExperience": {
     "title": "How kids learn with us",
     "subtitle": "Each lesson is a set of visual flashcards — simple, playful, and easy for young learners to love.",
+    "badges": ["Picture flashcards", "Native Vietnamese audio", "Gentle review"],
     "card": { "emoji": "🍎", "word": "Quả táo", "translation": "Apple", "listen": "Listen" },
     "note": "After the flashcards, a short review activity follows — matching, listening, or simple multiple choice."
   },
