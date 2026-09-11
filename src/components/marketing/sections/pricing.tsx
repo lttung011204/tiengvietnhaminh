@@ -4,7 +4,7 @@ import { Reveal } from "@/components/motion/reveal";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 
-type Package = { lessons: number; price: string; tag: string; desc: string };
+type Package = { lessons: number; price: string; priceUsd: string; tag: string; desc: string };
 
 export function Pricing() {
   const t = useTranslations("programs");
@@ -16,9 +16,14 @@ export function Pricing() {
         <Reveal className="max-w-2xl">
           <h2 className="font-display text-3xl font-semibold text-espresso-900 sm:text-4xl">{t("title")}</h2>
           <p className="mt-4 text-lg text-espresso-500">{t("subtitle")}</p>
-          <p className="mt-3 inline-block rounded-full bg-terracotta-100 px-4 py-1.5 text-sm font-semibold text-terracotta-700">
-            {t("unit")}
-          </p>
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <p className="inline-block rounded-full bg-terracotta-100 px-4 py-1.5 text-sm font-semibold text-terracotta-700">
+              {t("unit")}
+            </p>
+            <p className="inline-block rounded-full bg-gold-100 px-4 py-1.5 text-sm font-semibold text-gold-700">
+              {t("unitUsd")}
+            </p>
+          </div>
         </Reveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
@@ -27,10 +32,10 @@ export function Pricing() {
             return (
               <Reveal key={pkg.lessons} delay={i * 0.08}>
                 <div
-                  className={`relative flex h-full flex-col rounded-3xl border p-8 shadow-soft ${
+                  className={`group relative flex h-full flex-col rounded-3xl border p-8 shadow-soft transition-all duration-300 hover:-translate-y-2 hover:shadow-soft-lg ${
                     featured
-                      ? "border-terracotta-300 bg-cream-100 shadow-soft-lg md:-translate-y-3"
-                      : "border-espresso-100/70 bg-cream-100"
+                      ? "border-terracotta-300 bg-cream-100 shadow-soft-lg md:-translate-y-3 md:hover:-translate-y-5"
+                      : "border-espresso-100/70 bg-cream-100 hover:border-terracotta-200"
                   }`}
                 >
                   {pkg.tag && (
@@ -46,6 +51,7 @@ export function Pricing() {
                     {t("packageLabel", { count: pkg.lessons })}
                   </p>
                   <p className="mt-3 font-display text-4xl font-bold text-terracotta-600">{pkg.price}</p>
+                  <p className="mt-1 text-sm font-medium text-gold-700">{pkg.priceUsd}</p>
                   <p className="mt-1 text-sm text-espresso-400">{t("perLesson")}</p>
                   <p className="mt-4 flex-1 text-sm leading-relaxed text-espresso-500">{pkg.desc}</p>
                   <p className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-espresso-600">
@@ -62,6 +68,7 @@ export function Pricing() {
         </div>
 
         <p className="mt-8 text-center text-sm text-espresso-400">{t("note")}</p>
+        <p className="mt-2 text-center text-xs text-espresso-300">{t("usdDisclaimer")}</p>
       </Container>
     </section>
   );

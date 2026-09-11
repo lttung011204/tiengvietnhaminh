@@ -32,8 +32,29 @@
   },
   "audience": {
     "title": "Chương trình học dành cho ai?",
-    "kids": { "title": "Tiếng Việt cho trẻ em", "desc": "Học qua flashcard hình ảnh, âm thanh và trò chơi ôn tập nhẹ nhàng." },
-    "adults": { "title": "Tiếng Việt cho người lớn", "desc": "Từ vựng, hội thoại, ngữ pháp và luyện nói theo lộ trình rõ ràng." }
+    "viewDetail": "Xem chi tiết chương trình",
+    "cta": "Đăng ký học thử miễn phí",
+    "levels": ["Sơ cấp", "Cơ bản", "Trung cấp", "Nâng cao"],
+    "kids": {
+      "title": "Tiếng Việt cho trẻ em",
+      "desc": "Học qua flashcard hình ảnh, âm thanh và trò chơi ôn tập nhẹ nhàng.",
+      "highlights": [
+        "Mỗi bài học là bộ flashcard 8–15 thẻ: hình ảnh, từ vựng, phát âm và ví dụ đơn giản",
+        "Sau flashcard là hoạt động ôn tập nhẹ nhàng: ghép hình, nghe và chọn, trắc nghiệm đơn giản",
+        "Giáo viên đồng hành 1 kèm 1 hoặc nhóm nhỏ, theo dõi tiến độ từng buổi học",
+        "Phù hợp trẻ từ 4 tuổi trở lên — ưu tiên sự hứng thú, không tạo áp lực bài vở"
+      ]
+    },
+    "adults": {
+      "title": "Tiếng Việt cho người lớn",
+      "desc": "Từ vựng, hội thoại, ngữ pháp và luyện nói theo lộ trình rõ ràng.",
+      "highlights": [
+        "Từ vựng và hội thoại thực tế theo chủ đề đời sống hằng ngày",
+        "Luyện nghe, đọc hiểu và ngữ pháp được giải thích rõ ràng, dễ hiểu",
+        "Bài tập nói và viết, được giáo viên chấm và nhận xét trực tiếp",
+        "Lộ trình linh hoạt: giao tiếp cơ bản, du lịch, đọc viết, hoặc ôn lại tiếng mẹ đẻ"
+      ]
+    }
   },
   "howItWorks": {
     "title": "Hành trình học cùng Nhà Mình",
@@ -61,16 +82,18 @@
     "title": "Học phí",
     "subtitle": "Một mức giá duy nhất, minh bạch — chọn gói phù hợp với hành trình học của con.",
     "unit": "300.000₫ / tiết · 60 phút mỗi tiết",
+    "unitUsd": "≈ $12 USD / tiết",
     "packages": [
-      { "lessons": 20, "price": "6.000.000₫", "tag": "", "desc": "Phù hợp để bắt đầu làm quen và xây nền tảng." },
-      { "lessons": 50, "price": "15.000.000₫", "tag": "Phổ biến nhất", "desc": "Lựa chọn được nhiều gia đình tin chọn để thấy tiến bộ rõ rệt." },
-      { "lessons": 60, "price": "18.000.000₫", "tag": "Đồng hành dài lâu", "desc": "Cho lộ trình học bài bản, xuyên suốt cả năm." }
+      { "lessons": 20, "price": "6.000.000₫", "priceUsd": "≈ $240", "tag": "", "desc": "Phù hợp để bắt đầu làm quen và xây nền tảng." },
+      { "lessons": 50, "price": "15.000.000₫", "priceUsd": "≈ $600", "tag": "Phổ biến nhất", "desc": "Lựa chọn được nhiều gia đình tin chọn để thấy tiến bộ rõ rệt." },
+      { "lessons": 60, "price": "18.000.000₫", "priceUsd": "≈ $720", "tag": "Đồng hành dài lâu", "desc": "Cho lộ trình học bài bản, xuyên suốt cả năm." }
     ],
     "packageLabel": "Gói {count} tiết",
     "perLesson": "300.000₫ / tiết",
     "perLessonDuration": "60 phút / tiết",
     "cta": "Đăng ký học thử trước",
-    "note": "Học thử miễn phí trước khi chọn gói — chúng tôi tư vấn gói phù hợp nhất sau buổi học thử."
+    "note": "Học thử miễn phí trước khi chọn gói — chúng tôi tư vấn gói phù hợp nhất sau buổi học thử.",
+    "usdDisclaimer": "Giá USD chỉ mang tính tham khảo (tỉ giá ước tính ~25.000₫/USD), thanh toán thực tế bằng VNĐ."
   },
   "teachers": {
     "title": "Giáo viên tâm huyết, đồng hành cùng con",

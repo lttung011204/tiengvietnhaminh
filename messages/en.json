@@ -32,8 +32,29 @@
   },
   "audience": {
     "title": "Who is this for?",
-    "kids": { "title": "Vietnamese for Kids", "desc": "Learning through picture flashcards, audio, and gentle review activities." },
-    "adults": { "title": "Vietnamese for Adults", "desc": "Vocabulary, conversation, grammar and speaking practice with a clear path forward." }
+    "viewDetail": "View program details",
+    "cta": "Book a Free Trial Class",
+    "levels": ["Beginner", "Elementary", "Intermediate", "Advanced"],
+    "kids": {
+      "title": "Vietnamese for Kids",
+      "desc": "Learning through picture flashcards, audio, and gentle review activities.",
+      "highlights": [
+        "Each lesson is a set of 8-15 flashcards: image, vocabulary, pronunciation and a simple example",
+        "A gentle review activity follows: picture matching, listen-and-choose, simple multiple choice",
+        "1-on-1 or small-group time with a real teacher, with progress tracked each session",
+        "Suited for kids age 4+ - built around enjoyment, not academic pressure"
+      ]
+    },
+    "adults": {
+      "title": "Vietnamese for Adults",
+      "desc": "Vocabulary, conversation, grammar and speaking practice with a clear path forward.",
+      "highlights": [
+        "Real-life vocabulary and dialogue built around everyday topics",
+        "Listening, reading comprehension and grammar explained clearly",
+        "Speaking and writing exercises, graded with direct feedback from your teacher",
+        "Flexible focus: everyday conversation, travel, reading/writing, or reconnecting with your first language"
+      ]
+    }
   },
   "howItWorks": {
     "title": "How learning works",
@@ -61,15 +82,17 @@
     "title": "Tuition",
     "subtitle": "One transparent rate — choose the package that fits your child's journey.",
     "unit": "300,000₫ / lesson · 60 minutes per lesson",
+    "unitUsd": "≈ $12 USD / lesson",
     "packages": [
-      { "lessons": 20, "price": "6,000,000₫", "tag": "", "desc": "A great way to get started and build the basics." },
-      { "lessons": 50, "price": "15,000,000₫", "tag": "Most popular", "desc": "The choice most families trust to see real progress." },
-      { "lessons": 60, "price": "18,000,000₫", "tag": "Long-term journey", "desc": "For a structured path that carries through the whole year." }
+      { "lessons": 20, "price": "6,000,000₫", "priceUsd": "≈ $240", "tag": "", "desc": "A great way to get started and build the basics." },
+      { "lessons": 50, "price": "15,000,000₫", "priceUsd": "≈ $600", "tag": "Most popular", "desc": "The choice most families trust to see real progress." },
+      { "lessons": 60, "price": "18,000,000₫", "priceUsd": "≈ $720", "tag": "Long-term journey", "desc": "For a structured path that carries through the whole year." }
     ],
     "packageLabel": "{count}-Lesson Package",
     "perLesson": "300,000₫ / lesson",
     "perLessonDuration": "60 minutes / lesson",
     "cta": "Book a Trial First",
+    "usdDisclaimer": "USD amounts are approximate (estimated at ~25,000₫/USD) for reference only — billing is in Vietnamese dong (VND).",
     "note": "Book a free trial before choosing a package — we'll recommend the best fit after the trial class."
   },
   "teachers": {
