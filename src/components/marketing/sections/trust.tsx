@@ -17,7 +17,7 @@ export function Trust() {
           <p className="mt-4 text-lg text-espresso-500">{t("subtitle")}</p>
         </Reveal>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item, i) => {
             const Icon = icons[i % icons.length];
             return (

@@ -17,7 +17,7 @@ export default async function StudentCoursePage({ params }: { params: Promise<{ 
     <div>
       <h1 className="font-display text-2xl font-semibold text-espresso-900">My Courses</h1>
 
-      <div className="mt-6 grid gap-5 sm:grid-cols-2">
+      <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2">
         {(enrollments ?? []).map((e) => {
           const progress = progressByCourse.get(e.course_id);
           const name = locale === "vi" ? e.courses?.name_vi : e.courses?.name_en;

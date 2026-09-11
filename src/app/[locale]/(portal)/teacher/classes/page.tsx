@@ -12,7 +12,7 @@ export default async function TeacherClassesPage({ params }: { params: Promise<{
   return (
     <div>
       <h1 className="font-display text-2xl font-semibold text-espresso-900">My Classes</h1>
-      <div className="mt-6 grid gap-4 sm:grid-cols-2">
+      <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
         {(courseTeachers ?? []).map((ct, i) => (
           <div key={i} className="rounded-2xl border border-espresso-100/70 bg-cream-50 p-5 shadow-soft">
             <p className="font-semibold text-espresso-800">{locale === "vi" ? ct.courses?.name_vi : ct.courses?.name_en}</p>

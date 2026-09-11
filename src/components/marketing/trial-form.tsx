@@ -54,7 +54,7 @@ export function TrialForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-5">
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <div>
           <label className={labelClass}>{t("fields.parentName")}</label>
           <input className={inputClass} {...register("parentName")} />
@@ -67,7 +67,7 @@ export function TrialForm() {
         </div>
       </div>
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <div>
           <label className={labelClass}>{t("fields.studentAge")}</label>
           <input type="number" min={1} max={99} className={inputClass} {...register("studentAge")} />
@@ -112,7 +112,7 @@ export function TrialForm() {
         />
       </div>
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <div>
           <label className={labelClass}>{t("fields.phone")}</label>
           <input className={inputClass} {...register("phone")} />
@@ -125,7 +125,7 @@ export function TrialForm() {
         </div>
       </div>
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <div>
           <label className={labelClass}>{t("fields.preferredContactMethod")}</label>
           <select className={inputClass} defaultValue="" {...register("preferredContactMethod")}>

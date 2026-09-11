@@ -19,6 +19,15 @@
     "badge1": "Học thử miễn phí",
     "badge2": "Giáo viên người Việt tận tâm"
   },
+  "problem": {
+    "title": "Có phải bạn cũng đang trăn trở những điều này?",
+    "items": [
+      "Con nói tiếng Anh trôi chảy, nhưng ngày càng ngại nói tiếng Việt ở nhà",
+      "Mỗi lần gọi video cho ông bà, con chỉ biết cười trừ vì thiếu từ để diễn đạt",
+      "Bạn muốn con hiểu về cội nguồn, nhưng không chắc nên bắt đầu từ đâu"
+    ],
+    "bridge": "Đó là lý do Tiếng Việt Nhà Mình ra đời."
+  },
   "trust": {
     "title": "Vì sao phụ huynh chọn Nhà Mình",
     "subtitle": "Chúng tôi xây dựng chương trình học cùng sự thấu hiểu của những gia đình Việt xa quê.",
@@ -102,14 +111,6 @@
       { "title": "Trình độ chuyên môn cao", "desc": "Được đào tạo bài bản, vững chuyên môn giảng dạy tiếng Việt." },
       { "title": "Nhiệt tình, tận tâm", "desc": "Luôn kiên nhẫn, ấm áp và thấu hiểu từng học viên." },
       { "title": "Đồng hành cùng sự tiến bộ", "desc": "Theo sát quá trình học và cam kết tiến bộ rõ rệt của con." }
-    ]
-  },
-  "testimonials": {
-    "title": "Phụ huynh nói gì về Nhà Mình",
-    "items": [
-      { "quote": "Con mình giờ đã dám gọi video và nói chuyện với bà ngoại bằng tiếng Việt. Điều đó với gia đình mình là vô giá.", "name": "Chị Lan Anh", "context": "Phụ huynh tại California" },
-      { "quote": "Giáo viên rất kiên nhẫn và ấm áp. Con mình thích giờ học flashcard mỗi tuần.", "name": "Anh Minh Khoa", "context": "Phụ huynh tại Texas" },
-      { "quote": "Mình học lại tiếng Việt sau nhiều năm quên gần hết. Lộ trình rõ ràng, không áp lực.", "name": "Chị Thu Hà", "context": "Học viên người lớn tại Virginia" }
     ]
   },
   "faq": {

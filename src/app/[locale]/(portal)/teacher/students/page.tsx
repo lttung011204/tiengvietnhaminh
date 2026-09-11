@@ -10,7 +10,7 @@ export default async function TeacherStudentsPage({ params }: { params: Promise<
   return (
     <div>
       <h1 className="font-display text-2xl font-semibold text-espresso-900">My Students</h1>
-      <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {students.map((e) => (
           <Link
             key={e.student_id}

@@ -25,7 +25,7 @@ export default async function TeacherDashboardPage({ params }: { params: Promise
     <div>
       <h1 className="font-display text-2xl font-semibold text-espresso-900">Welcome, {profile.full_name}</h1>
 
-      <div className="mt-6 grid gap-5 sm:grid-cols-3">
+      <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-3">
         {stats.map((stat) => (
           <Link
             key={stat.label}

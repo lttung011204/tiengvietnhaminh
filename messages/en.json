@@ -19,6 +19,15 @@
     "badge1": "Free trial class",
     "badge2": "Dedicated Vietnamese teachers"
   },
+  "problem": {
+    "title": "Does any of this sound familiar?",
+    "items": [
+      "Your child is fluent in English, but Vietnamese feels increasingly awkward at home",
+      "Video calls with grandparents end in smiles, because the words just aren't there yet",
+      "You want your child to understand their roots, but aren't sure where to start"
+    ],
+    "bridge": "That's exactly why Tiếng Việt Nhà Mình exists."
+  },
   "trust": {
     "title": "Why families choose Nhà Mình",
     "subtitle": "Built with real understanding of what it's like raising Vietnamese kids abroad.",
@@ -104,14 +113,6 @@
       { "title": "Committed to real progress", "desc": "Closely tracking each student's journey toward visible progress." }
     ],
     "yearsExperience": "years experience"
-  },
-  "testimonials": {
-    "title": "What parents say",
-    "items": [
-      { "quote": "My daughter now video calls her grandmother and actually talks in Vietnamese. That alone made this worth it.", "name": "Lan Anh", "context": "Parent in California" },
-      { "quote": "The teacher is so patient and warm. My son looks forward to flashcard time every week.", "name": "Minh Khoa", "context": "Parent in Texas" },
-      { "quote": "I'm relearning Vietnamese after years of forgetting most of it. The path is clear and there's no pressure.", "name": "Thu Ha", "context": "Adult learner in Virginia" }
-    ]
   },
   "faq": {
     "title": "Frequently asked questions",

@@ -15,7 +15,7 @@ export function HowItWorks() {
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, i) => (
             <Reveal key={step.title} delay={i * 0.08} className="relative">
               <div className="flex h-11 w-11 items-center justify-center rounded-full bg-terracotta-500 font-display text-lg font-semibold text-cream-50">

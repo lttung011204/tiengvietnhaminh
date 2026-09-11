@@ -14,7 +14,7 @@ export default async function ParentChildrenPage({ params }: { params: Promise<{
     <div>
       <h1 className="font-display text-2xl font-semibold text-espresso-900">My Children</h1>
 
-      <div className="mt-6 grid gap-4 sm:grid-cols-2">
+      <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
         {(children ?? []).map((c) => (
           <div key={c.id} className="rounded-2xl border border-espresso-100/70 bg-cream-50 p-5 shadow-soft">
             <p className="font-semibold text-espresso-800">{c.profiles?.full_name}</p>

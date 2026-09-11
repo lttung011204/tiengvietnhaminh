@@ -33,7 +33,7 @@ export function Audience() {
           </h2>
         </Reveal>
 
-        <div className="mt-10 grid gap-6 sm:grid-cols-2">
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
           {CARDS.map((card, i) => (
             <Reveal key={card.key} delay={i * 0.08}>
               <motion.button

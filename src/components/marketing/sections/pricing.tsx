@@ -26,7 +26,7 @@ export function Pricing() {
           </div>
         </Reveal>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           {packages.map((pkg, i) => {
             const featured = i === 1;
             return (

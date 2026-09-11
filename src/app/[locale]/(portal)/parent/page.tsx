@@ -26,7 +26,7 @@ export default async function ParentDashboardPage({ params }: { params: Promise<
           </Button>
         </div>
       ) : (
-        <div className="mt-6 grid gap-6 lg:grid-cols-2">
+        <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-2">
           {children.map(({ student, primary, feedback, lessonsThisWeek, wordsThisWeek }) => {
             const childName = student.profiles?.full_name ?? "Student";
             const courseName = locale === "vi" ? primary?.enrollment.courses?.name_vi : primary?.enrollment.courses?.name_en;

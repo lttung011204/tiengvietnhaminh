@@ -27,7 +27,7 @@ function BlockBody({ block, locale }: { block: LessonBlock; locale: string }) {
   if (block.block_type === "vocabulary" && Array.isArray(content.items)) {
     const items = content.items as { word_vi: string; word_en?: string }[];
     return (
-      <ul className="grid gap-2 sm:grid-cols-2">
+      <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
         {items.map((item, i) => (
           <li key={i} className="rounded-xl bg-cream-100 px-4 py-2.5">
             <span className="font-semibold text-espresso-800">{item.word_vi}</span>

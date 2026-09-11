@@ -17,7 +17,7 @@ export function Teachers() {
           <p className="mx-auto mt-4 max-w-2xl text-lg text-espresso-500">{t("subtitle")}</p>
         </Reveal>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-3">
           {commitments.map((item, i) => {
             const Icon = ICONS[i % ICONS.length];
             return (

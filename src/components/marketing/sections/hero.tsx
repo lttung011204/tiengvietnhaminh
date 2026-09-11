@@ -23,7 +23,7 @@ export function Hero() {
         className="pointer-events-none absolute top-40 -left-32 h-72 w-72 rounded-full bg-terracotta-200/40 blur-3xl"
       />
 
-      <Container className="relative grid items-center gap-12 lg:grid-cols-2">
+      <Container className="relative grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

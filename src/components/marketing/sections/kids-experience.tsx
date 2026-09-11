@@ -20,7 +20,7 @@ export function KidsExperience() {
 
   return (
     <section className="py-20 sm:py-24">
-      <Container className="grid items-center gap-12 lg:grid-cols-2">
+      <Container className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <Reveal>
           <h2 className="font-display text-3xl font-semibold text-espresso-900 sm:text-4xl">{t("title")}</h2>
           <p className="mt-4 max-w-md text-lg text-espresso-500">{t("subtitle")}</p>

@@ -10,7 +10,7 @@ export function Footer() {
 
   return (
     <footer className="mt-24 border-t border-espresso-100/60 bg-cream-50">
-      <Container className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
+      <Container className="grid grid-cols-1 gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <Logo />
           <p className="mt-4 max-w-xs text-sm text-espresso-400">{t("tagline")}</p>
