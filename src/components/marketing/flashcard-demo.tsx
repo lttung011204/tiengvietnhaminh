@@ -14,6 +14,17 @@ const SAMPLE_CARDS = [
   { emoji: "🌸", vi: "Bông hoa", en: "Flower" },
 ];
 
+// Best-effort pick of a gentle-sounding Vietnamese female voice. The Web
+// Speech API doesn't expose gender directly, so this matches on common
+// Vietnamese female voice names (Windows/Edge, Chrome/Google, macOS/Safari)
+// and otherwise falls back to any Vietnamese voice.
+function pickVietnameseVoice(voices: SpeechSynthesisVoice[]) {
+  const viVoices = voices.filter((v) => v.lang?.toLowerCase().startsWith("vi"));
+  if (!viVoices.length) return null;
+  const femaleHint = /female|nữ|hoaimy|linh|mai|thao|huong/i;
+  return viVoices.find((v) => femaleHint.test(v.name)) ?? viVoices[0];
+}
+
 export function FlashcardDemo() {
   const t = useTranslations("kidsExperience");
   const tLesson = useTranslations("lesson");
@@ -26,11 +37,24 @@ export function FlashcardDemo() {
   const speak = () => {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
     try {
+      const synth = window.speechSynthesis;
       const utterance = new SpeechSynthesisUtterance(card.vi);
       utterance.lang = "vi-VN";
-      utterance.rate = 0.9;
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.speak(utterance);
+      utterance.rate = 0.75;
+      utterance.pitch = 1.2;
+
+      const speakNow = () => {
+        const voice = pickVietnameseVoice(synth.getVoices());
+        if (voice) utterance.voice = voice;
+        synth.cancel();
+        synth.speak(utterance);
+      };
+
+      if (synth.getVoices().length === 0) {
+        synth.addEventListener("voiceschanged", speakNow, { once: true });
+      } else {
+        speakNow();
+      }
     } catch {
       // Speech synthesis isn't available — the card still works without audio.
     }
