@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream-50: #fffdfa;
+  --color-cream-100: #fbf3e7;
+  --color-cream-200: #f5e7d3;
+  --color-cream-300: #ecd6b8;
+
+  --color-terracotta-50: #fbeee7;
+  --color-terracotta-100: #f5d9c9;
+  --color-terracotta-200: #ebb595;
+  --color-terracotta-300: #e0916a;
+  --color-terracotta-400: #d2734c;
+  --color-terracotta-500: #c15b3a;
+  --color-terracotta-600: #a84a2e;
+  --color-terracotta-700: #8a3a24;
+  --color-terracotta-800: #6c2d1c;
+  --color-terracotta-900: #4f2114;
+
+  --color-gold-50: #fdf3df;
+  --color-gold-100: #fae4b4;
+  --color-gold-200: #f3cd7c;
+  --color-gold-300: #e9b454;
+  --color-gold-400: #dfa13d;
+  --color-gold-500: #c88a2e;
+  --color-gold-600: #a8721f;
+  --color-gold-700: #825818;
+
+  --color-espresso-50: #f3ece8;
+  --color-espresso-100: #e0d0c6;
+  --color-espresso-300: #a3826e;
+  --color-espresso-400: #7a5b4c;
+  --color-espresso-600: #59402f;
+  --color-espresso-700: #43301f;
+  --color-espresso-800: #33241a;
+  --color-espresso-900: #241a13;
+
+  --shadow-soft: 0 2px 8px rgba(76, 44, 24, 0.06), 0 8px 24px rgba(76, 44, 24, 0.07);
+  --shadow-soft-lg: 0 8px 16px rgba(76, 44, 24, 0.07), 0 20px 48px rgba(76, 44, 24, 0.1);
+}
+
+@theme inline {
+  --color-cream-50: var(--color-cream-50);
+  --color-cream-100: var(--color-cream-100);
+  --color-cream-200: var(--color-cream-200);
+  --color-cream-300: var(--color-cream-300);
+
+  --color-terracotta-50: var(--color-terracotta-50);
+  --color-terracotta-100: var(--color-terracotta-100);
+  --color-terracotta-200: var(--color-terracotta-200);
+  --color-terracotta-300: var(--color-terracotta-300);
+  --color-terracotta-400: var(--color-terracotta-400);
+  --color-terracotta-500: var(--color-terracotta-500);
+  --color-terracotta-600: var(--color-terracotta-600);
+  --color-terracotta-700: var(--color-terracotta-700);
+  --color-terracotta-800: var(--color-terracotta-800);
+  --color-terracotta-900: var(--color-terracotta-900);
+
+  --color-gold-50: var(--color-gold-50);
+  --color-gold-100: var(--color-gold-100);
+  --color-gold-200: var(--color-gold-200);
+  --color-gold-300: var(--color-gold-300);
+  --color-gold-400: var(--color-gold-400);
+  --color-gold-500: var(--color-gold-500);
+  --color-gold-600: var(--color-gold-600);
+  --color-gold-700: var(--color-gold-700);
+
+  --color-espresso-50: var(--color-espresso-50);
+  --color-espresso-100: var(--color-espresso-100);
+  --color-espresso-300: var(--color-espresso-300);
+  --color-espresso-400: var(--color-espresso-400);
+  --color-espresso-600: var(--color-espresso-600);
+  --color-espresso-700: var(--color-espresso-700);
+  --color-espresso-800: var(--color-espresso-800);
+  --color-espresso-900: var(--color-espresso-900);
+
+  --shadow-soft: var(--shadow-soft);
+  --shadow-soft-lg: var(--shadow-soft-lg);
+
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-be-vietnam);
+}
+
+body {
+  background: var(--color-cream-100);
+  color: var(--color-espresso-800);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "brand": {
+    "name": "Tiếng Việt Nhà Mình"
+  },
+  "nav": {
+    "home": "Home",
+    "programs": "Programs",
+    "teachers": "Teachers",
+    "faq": "FAQ",
+    "login": "Log in",
+    "bookTrial": "Book a Free Trial"
+  },
+  "hero": {
+    "eyebrow": "For Vietnamese families abroad",
+    "title": "Help your child stay connected to Vietnamese language, family and culture",
+    "subtitle": "Online Vietnamese lessons designed for Vietnamese children and families growing up abroad — warm, structured, and easy to follow along with.",
+    "ctaPrimary": "Book a Free Trial Class",
+    "ctaSecondary": "Explore Programs"
+  },
+  "trust": {
+    "title": "Why families choose Nhà Mình",
+    "subtitle": "Built with real understanding of what it's like raising Vietnamese kids abroad.",
+    "items": [
+      { "title": "Speak Vietnamese with confidence", "desc": "Natural listening and speaking practice through small, digestible lessons." },
+      { "title": "Connect with grandparents", "desc": "Real conversations with family back home — no more language gap." },
+      { "title": "Age-appropriate lessons", "desc": "From picture flashcards for kids to conversation and grammar for adults." },
+      { "title": "Understand Vietnamese culture", "desc": "Language taught alongside the stories, customs and identity behind it." },
+      { "title": "Learn with Vietnamese teachers", "desc": "A caring team experienced in teaching students who live abroad." }
+    ]
+  },
+  "audience": {
+    "title": "Who is this for?",
+    "kids": { "title": "Vietnamese for Kids", "desc": "Learning through picture flashcards, audio, and gentle review activities." },
+    "adults": { "title": "Vietnamese for Adults", "desc": "Vocabulary, conversation, grammar and speaking practice with a clear path forward." }
+  },
+  "howItWorks": {
+    "title": "How learning works",
+    "steps": [
+      { "title": "Book a trial class", "desc": "Tell us about your family — we'll reach out within 24–48 hours." },
+      { "title": "We assess the level", "desc": "A teacher chats with your student to understand ability and goals." },
+      { "title": "We recommend a path", "desc": "The right program and level, matched to your student." },
+      { "title": "Learning begins", "desc": "Live teacher sessions plus an engaging online lesson system." }
+    ]
+  },
+  "kidsExperience": {
+    "title": "How kids learn with us",
+    "subtitle": "Each lesson is a set of visual flashcards — simple, playful, and easy for young learners to love.",
+    "card": { "emoji": "🍎", "word": "Quả táo", "translation": "Apple", "listen": "Listen" },
+    "note": "After the flashcards, a short review activity follows — matching, listening, or simple multiple choice."
+  },
+  "programs": {
+    "title": "Programs",
+    "subtitle": "A clear path for every age and level.",
+    "levels": {
+      "beginner": "Beginner",
+      "elementary": "Elementary",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "viewProgram": "View program"
+  },
+  "teachers": {
+    "title": "Meet our teachers",
+    "subtitle": "Native Vietnamese teachers who love working with families abroad.",
+    "yearsExperience": "years experience"
+  },
+  "testimonials": {
+    "title": "What parents say",
+    "items": [
+      { "quote": "My daughter now video calls her grandmother and actually talks in Vietnamese. That alone made this worth it.", "name": "Lan Anh", "context": "Parent in California" },
+      { "quote": "The teacher is so patient and warm. My son looks forward to flashcard time every week.", "name": "Minh Khoa", "context": "Parent in Texas" },
+      { "quote": "I'm relearning Vietnamese after years of forgetting most of it. The path is clear and there's no pressure.", "name": "Thu Ha", "context": "Adult learner in Virginia" }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      { "q": "What age should my child start?", "a": "The kids' program is designed for ages 4 and up. Your trial class will help us find the right fit for your child's age and current level." },
+      { "q": "How do online classes work?", "a": "Students meet a teacher on a scheduled video call, plus flashcard lessons and materials in the learning portal to practice in between sessions." },
+      { "q": "I don't speak much Vietnamese myself — can I still support my child?", "a": "Absolutely. Everything in the portal includes English support, and you just need to check progress — not teach the material yourself." },
+      { "q": "Group classes or one-on-one?", "a": "Both are available. Our team will recommend the best fit after your trial class." },
+      { "q": "Can you work around our time zone abroad?", "a": "Yes — we prioritize flexible scheduling around each family's time zone." }
+    ]
+  },
+  "finalCta": {
+    "title": "Ready to help your child keep their Vietnamese?",
+    "subtitle": "Book a free trial class — no payment required.",
+    "cta": "Book a Free Trial Class"
+  },
+  "footer": {
+    "tagline": "Keeping Vietnamese alive. Keeping family close.",
+    "quickLinks": "Quick links",
+    "contact": "Contact",
+    "rights": "All rights reserved, Tiếng Việt Nhà Mình."
+  },
+  "trialForm": {
+    "title": "Book a Free Trial Class",
+    "subtitle": "Fill in the details below — our team will reach out within 24–48 hours.",
+    "fields": {
+      "parentName": "Parent's full name",
+      "studentName": "Student's full name",
+      "studentAge": "Student's age",
+      "country": "Country / time zone",
+      "vietnameseLevel": "Current Vietnamese level",
+      "learningGoal": "Learning goal",
+      "phone": "Phone / WhatsApp number",
+      "email": "Email",
+      "preferredContactMethod": "Preferred contact method",
+      "preferredClassTime": "Preferred class time"
+    },
+    "placeholders": {
+      "learningGoal": "E.g. talk with grandparents, everyday confidence...",
+      "country": "E.g. United States — Pacific Time (PST)",
+      "preferredClassTime": "E.g. weekend mornings"
+    },
+    "levelOptions": {
+      "none": "No prior knowledge",
+      "little": "Understands a little",
+      "conversational": "Basic conversation",
+      "fluent": "Fairly fluent"
+    },
+    "contactOptions": {
+      "phone": "Phone call",
+      "whatsapp": "WhatsApp",
+      "email": "Email"
+    },
+    "submit": "Submit registration",
+    "submitting": "Submitting...",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "required": "Please fill in this field"
+  },
+  "trialThankYou": {
+    "title": "Thank you for registering a trial class with Tiếng Việt Nhà Mình.",
+    "message": "We'll contact your family shortly to arrange the most suitable class.",
+    "backHome": "Back to home"
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "loginSubtitle": "Welcome back to Nhà Mình.",
+    "signupTitle": "Create a parent account",
+    "signupSubtitle": "Create an account to follow your child's learning journey.",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full name",
+    "loginSubmit": "Log in",
+    "signupSubmit": "Create account",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signupLink": "Sign up",
+    "loginLink": "Log in",
+    "error": "Incorrect email or password."
+  },
+  "dashboard": {
+    "student": {
+      "nav": { "home": "Home", "myCourse": "My Course", "assignments": "Assignments", "progress": "Progress", "profile": "Profile" },
+      "welcome": "Welcome",
+      "continueLearning": "Continue Learning",
+      "continueLesson": "Continue Lesson",
+      "progress": "Progress",
+      "myCourses": "My Courses",
+      "recentLessons": "Recent Lessons",
+      "todaysLesson": "Today's Lesson",
+      "completedLessons": "Completed Lessons",
+      "cardsCompleted": "cards completed"
+    },
+    "parent": {
+      "nav": { "home": "Home", "myChildren": "My Children", "progress": "Progress", "feedback": "Teacher Feedback", "profile": "Profile" },
+      "thisWeek": "This week",
+      "lessonsCompleted": "lessons completed",
+      "wordsLearned": "vocabulary words learned",
+      "teacherNote": "Teacher note",
+      "teacher": "Teacher",
+      "noChildren": "No student profiles yet.",
+      "addChild": "Add a student profile"
+    },
+    "teacher": {
+      "nav": { "dashboard": "Dashboard", "students": "Students", "classes": "Classes", "assignments": "Assignments", "progress": "Progress" },
+      "myStudents": "My Students",
+      "myClasses": "My Classes",
+      "toReview": "Assignments to Review",
+      "assignLesson": "Assign lesson",
+      "assignHomework": "Assign homework",
+      "addFeedback": "Add feedback",
+      "grade": "Grade"
+    },
+    "admin": {
+      "nav": { "dashboard": "Dashboard", "leads": "Trial Leads", "students": "Students", "parents": "Parents", "teachers": "Teachers", "courses": "Courses", "lessons": "Lessons", "enrollments": "Enrollments" },
+      "leadStatus": {
+        "new": "New",
+        "contacted": "Contacted",
+        "trial_scheduled": "Trial Scheduled",
+        "trial_completed": "Trial Completed",
+        "enrolled": "Enrolled",
+        "not_enrolled": "Not Enrolled"
+      }
+    }
+  },
+  "lesson": {
+    "cardsProgress": "{current} / {total} cards",
+    "knowIt": "I know this",
+    "practiceAgain": "Practice again",
+    "replay": "Replay",
+    "next": "Next",
+    "startReview": "Start review",
+    "reviewTitle": "Quick Review",
+    "lessonComplete": "Lesson complete!",
+    "lessonCompleteDesc": "Great work! Come back and practice anytime.",
+    "backToDashboard": "Back to home",
+    "chooseCorrect": "Choose the correct word",
+    "listenChoose": "Listen and choose the right answer",
+    "yourScore": "Your score",
+    "submit": "Submit",
+    "correct": "Correct!",
+    "incorrect": "Not quite"
+  }
+}

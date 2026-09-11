@@ -1,0 +1,216 @@
+{
+  "brand": {
+    "name": "Tiếng Việt Nhà Mình"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "programs": "Chương trình học",
+    "teachers": "Giáo viên",
+    "faq": "Hỏi đáp",
+    "login": "Đăng nhập",
+    "bookTrial": "Học thử miễn phí"
+  },
+  "hero": {
+    "eyebrow": "Dành cho gia đình Việt xa quê",
+    "title": "Giúp con giữ gìn tiếng Việt, gắn kết gia đình và cội nguồn",
+    "subtitle": "Lớp học tiếng Việt trực tuyến dành cho trẻ em và gia đình Việt Nam lớn lên ở nước ngoài — ấm áp, bài bản và dễ đồng hành.",
+    "ctaPrimary": "Đăng ký học thử miễn phí",
+    "ctaSecondary": "Khám phá chương trình học"
+  },
+  "trust": {
+    "title": "Vì sao phụ huynh chọn Nhà Mình",
+    "subtitle": "Chúng tôi xây dựng chương trình học cùng sự thấu hiểu của những gia đình Việt xa quê.",
+    "items": [
+      { "title": "Tự tin nói tiếng Việt", "desc": "Luyện nghe – nói tự nhiên qua từng bài học nhỏ, dễ tiếp thu." },
+      { "title": "Kết nối với ông bà, người thân", "desc": "Trò chuyện được với gia đình ở quê nhà, không còn khoảng cách ngôn ngữ." },
+      { "title": "Bài học phù hợp từng lứa tuổi", "desc": "Từ flashcard cho bé đến hội thoại, ngữ pháp cho người lớn." },
+      { "title": "Hiểu và trân trọng văn hóa Việt", "desc": "Ngôn ngữ đi cùng câu chuyện, phong tục và bản sắc dân tộc." },
+      { "title": "Học cùng giáo viên người Việt", "desc": "Đội ngũ giáo viên tận tâm, giàu kinh nghiệm dạy học sinh ở nước ngoài." }
+    ]
+  },
+  "audience": {
+    "title": "Chương trình học dành cho ai?",
+    "kids": { "title": "Tiếng Việt cho trẻ em", "desc": "Học qua flashcard hình ảnh, âm thanh và trò chơi ôn tập nhẹ nhàng." },
+    "adults": { "title": "Tiếng Việt cho người lớn", "desc": "Từ vựng, hội thoại, ngữ pháp và luyện nói theo lộ trình rõ ràng." }
+  },
+  "howItWorks": {
+    "title": "Hành trình học cùng Nhà Mình",
+    "steps": [
+      { "title": "Đăng ký học thử", "desc": "Điền thông tin, chúng tôi liên hệ trong 24–48 giờ." },
+      { "title": "Đánh giá trình độ", "desc": "Giáo viên trò chuyện để hiểu khả năng và mục tiêu của học viên." },
+      { "title": "Đề xuất lộ trình phù hợp", "desc": "Chọn chương trình và cấp độ phù hợp nhất với từng học viên." },
+      { "title": "Bắt đầu học tập", "desc": "Học cùng giáo viên và hệ thống bài học trực tuyến sinh động." }
+    ]
+  },
+  "kidsExperience": {
+    "title": "Trẻ học tiếng Việt như thế nào?",
+    "subtitle": "Mỗi bài học là một bộ flashcard hình ảnh — đơn giản, trực quan và rất dễ thương với các bé.",
+    "card": { "emoji": "🍎", "word": "Quả táo", "translation": "Apple", "listen": "Nghe phát âm" },
+    "note": "Sau flashcard là một hoạt động ôn tập ngắn — chọn từ đúng, nghe và chọn, hoặc ghép hình với từ."
+  },
+  "programs": {
+    "title": "Chương trình học",
+    "subtitle": "Lộ trình rõ ràng theo từng lứa tuổi và trình độ.",
+    "levels": {
+      "beginner": "Sơ cấp",
+      "elementary": "Cơ bản",
+      "intermediate": "Trung cấp",
+      "advanced": "Nâng cao"
+    },
+    "viewProgram": "Xem chương trình"
+  },
+  "teachers": {
+    "title": "Đội ngũ giáo viên",
+    "subtitle": "Giáo viên người Việt tận tâm, giàu kinh nghiệm giảng dạy cho gia đình xa quê.",
+    "yearsExperience": "năm kinh nghiệm"
+  },
+  "testimonials": {
+    "title": "Phụ huynh nói gì về Nhà Mình",
+    "items": [
+      { "quote": "Con mình giờ đã dám gọi video và nói chuyện với bà ngoại bằng tiếng Việt. Điều đó với gia đình mình là vô giá.", "name": "Chị Lan Anh", "context": "Phụ huynh tại California" },
+      { "quote": "Giáo viên rất kiên nhẫn và ấm áp. Con mình thích giờ học flashcard mỗi tuần.", "name": "Anh Minh Khoa", "context": "Phụ huynh tại Texas" },
+      { "quote": "Mình học lại tiếng Việt sau nhiều năm quên gần hết. Lộ trình rõ ràng, không áp lực.", "name": "Chị Thu Hà", "context": "Học viên người lớn tại Virginia" }
+    ]
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      { "q": "Con mình nên bắt đầu học từ mấy tuổi?", "a": "Chương trình dành cho trẻ từ 4 tuổi trở lên. Buổi học thử sẽ giúp xác định lộ trình phù hợp nhất với độ tuổi và khả năng hiện tại của bé." },
+      { "q": "Lớp học diễn ra trực tuyến như thế nào?", "a": "Học viên học cùng giáo viên qua video call theo lịch đã đặt, kết hợp bài học flashcard hoặc tài liệu trên hệ thống để tự ôn tập thêm." },
+      { "q": "Ba mẹ không giỏi tiếng Việt có đồng hành được không?", "a": "Hoàn toàn được. Hệ thống học có phụ đề tiếng Anh và phụ huynh chỉ cần theo dõi tiến độ, không cần trực tiếp dạy." },
+      { "q": "Học theo nhóm hay 1 kèm 1?", "a": "Cả hai hình thức đều có. Đội ngũ sẽ tư vấn lựa chọn phù hợp sau buổi học thử." },
+      { "q": "Múi giờ ở nước ngoài có sắp xếp được không?", "a": "Có. Chúng tôi ưu tiên sắp xếp lịch học linh hoạt theo múi giờ của từng gia đình." }
+    ]
+  },
+  "finalCta": {
+    "title": "Sẵn sàng cùng con giữ gìn tiếng Việt?",
+    "subtitle": "Đăng ký một buổi học thử miễn phí — không cần thẻ thanh toán.",
+    "cta": "Đăng ký học thử miễn phí"
+  },
+  "footer": {
+    "tagline": "Giữ gìn tiếng Việt. Gắn kết yêu thương.",
+    "quickLinks": "Liên kết nhanh",
+    "contact": "Liên hệ",
+    "rights": "Bản quyền thuộc về Tiếng Việt Nhà Mình."
+  },
+  "trialForm": {
+    "title": "Đăng ký học thử miễn phí",
+    "subtitle": "Điền thông tin bên dưới, đội ngũ Nhà Mình sẽ liên hệ trong vòng 24–48 giờ.",
+    "fields": {
+      "parentName": "Họ tên phụ huynh",
+      "studentName": "Họ tên học viên",
+      "studentAge": "Tuổi học viên",
+      "country": "Quốc gia / múi giờ",
+      "vietnameseLevel": "Trình độ tiếng Việt hiện tại",
+      "learningGoal": "Mục tiêu học tập",
+      "phone": "Số điện thoại / WhatsApp",
+      "email": "Email",
+      "preferredContactMethod": "Phương thức liên hệ ưu tiên",
+      "preferredClassTime": "Thời gian học mong muốn"
+    },
+    "placeholders": {
+      "learningGoal": "Ví dụ: nói chuyện được với ông bà, tự tin giao tiếp hằng ngày...",
+      "country": "Ví dụ: Hoa Kỳ — múi giờ Thái Bình Dương (PST)",
+      "preferredClassTime": "Ví dụ: cuối tuần buổi sáng"
+    },
+    "levelOptions": {
+      "none": "Chưa biết gì",
+      "little": "Nghe hiểu chút ít",
+      "conversational": "Giao tiếp cơ bản",
+      "fluent": "Khá thành thạo"
+    },
+    "contactOptions": {
+      "phone": "Gọi điện",
+      "whatsapp": "WhatsApp",
+      "email": "Email"
+    },
+    "submit": "Gửi đăng ký",
+    "submitting": "Đang gửi...",
+    "errorGeneric": "Có lỗi xảy ra, vui lòng thử lại.",
+    "required": "Vui lòng nhập thông tin này"
+  },
+  "trialThankYou": {
+    "title": "Cảm ơn bạn đã đăng ký học thử cùng Tiếng Việt Nhà Mình.",
+    "message": "Chúng tôi sẽ liên hệ với gia đình sớm nhất để sắp xếp buổi học phù hợp.",
+    "backHome": "Về trang chủ"
+  },
+  "auth": {
+    "loginTitle": "Đăng nhập",
+    "loginSubtitle": "Chào mừng trở lại Nhà Mình.",
+    "signupTitle": "Tạo tài khoản phụ huynh",
+    "signupSubtitle": "Tạo tài khoản để theo dõi việc học của con bạn.",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "fullName": "Họ và tên",
+    "loginSubmit": "Đăng nhập",
+    "signupSubmit": "Tạo tài khoản",
+    "noAccount": "Chưa có tài khoản?",
+    "haveAccount": "Đã có tài khoản?",
+    "signupLink": "Đăng ký",
+    "loginLink": "Đăng nhập",
+    "error": "Email hoặc mật khẩu không đúng."
+  },
+  "dashboard": {
+    "student": {
+      "nav": { "home": "Trang chủ", "myCourse": "Khoá học của tôi", "assignments": "Bài tập", "progress": "Tiến độ", "profile": "Hồ sơ" },
+      "welcome": "Chào mừng",
+      "continueLearning": "Tiếp tục học",
+      "continueLesson": "Học tiếp",
+      "progress": "Tiến độ",
+      "myCourses": "Khoá học của tôi",
+      "recentLessons": "Bài học gần đây",
+      "todaysLesson": "Bài học hôm nay",
+      "completedLessons": "Bài học đã hoàn thành",
+      "cardsCompleted": "thẻ đã hoàn thành"
+    },
+    "parent": {
+      "nav": { "home": "Trang chủ", "myChildren": "Con của tôi", "progress": "Tiến độ", "feedback": "Nhận xét của giáo viên", "profile": "Hồ sơ" },
+      "thisWeek": "Tuần này",
+      "lessonsCompleted": "bài học đã hoàn thành",
+      "wordsLearned": "từ vựng đã học",
+      "teacherNote": "Nhận xét của giáo viên",
+      "teacher": "Giáo viên",
+      "noChildren": "Chưa có hồ sơ học viên nào.",
+      "addChild": "Thêm hồ sơ học viên"
+    },
+    "teacher": {
+      "nav": { "dashboard": "Tổng quan", "students": "Học viên", "classes": "Lớp học", "assignments": "Bài tập", "progress": "Tiến độ" },
+      "myStudents": "Học viên của tôi",
+      "myClasses": "Lớp học của tôi",
+      "toReview": "Bài tập cần chấm",
+      "assignLesson": "Giao bài học",
+      "assignHomework": "Giao bài tập",
+      "addFeedback": "Thêm nhận xét",
+      "grade": "Chấm điểm"
+    },
+    "admin": {
+      "nav": { "dashboard": "Tổng quan", "leads": "Đăng ký học thử", "students": "Học viên", "parents": "Phụ huynh", "teachers": "Giáo viên", "courses": "Khoá học", "lessons": "Bài học", "enrollments": "Ghi danh" },
+      "leadStatus": {
+        "new": "Mới",
+        "contacted": "Đã liên hệ",
+        "trial_scheduled": "Đã xếp lịch học thử",
+        "trial_completed": "Đã học thử",
+        "enrolled": "Đã ghi danh",
+        "not_enrolled": "Không ghi danh"
+      }
+    }
+  },
+  "lesson": {
+    "cardsProgress": "{current} / {total} thẻ",
+    "knowIt": "Tôi đã biết",
+    "practiceAgain": "Học lại",
+    "replay": "Nghe lại",
+    "next": "Tiếp theo",
+    "startReview": "Bắt đầu ôn tập",
+    "reviewTitle": "Ôn tập nhanh",
+    "lessonComplete": "Hoàn thành bài học!",
+    "lessonCompleteDesc": "Làm rất tốt! Hãy quay lại luyện tập bất cứ lúc nào.",
+    "backToDashboard": "Về trang chủ",
+    "chooseCorrect": "Chọn từ đúng",
+    "listenChoose": "Nghe và chọn đáp án đúng",
+    "yourScore": "Điểm của bạn",
+    "submit": "Nộp bài",
+    "correct": "Chính xác!",
+    "incorrect": "Chưa đúng"
+  }
+}
