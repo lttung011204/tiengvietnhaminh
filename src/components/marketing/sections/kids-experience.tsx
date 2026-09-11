@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/container";
 import { Reveal } from "@/components/motion/reveal";
@@ -5,15 +6,15 @@ import { Volume2, Image as ImageIcon, Repeat } from "lucide-react";
 
 const BADGE_ICONS = [ImageIcon, Volume2, Repeat];
 
+const SAMPLE_FLASHCARDS = [
+  { src: "/images/flashcards/tone-marks.png", alt: "Flashcard dấu thanh tiếng Việt", rotate: -8, x: -14 },
+  { src: "/images/flashcards/letter-a.png", alt: "Flashcard chữ A", rotate: 0, x: 0 },
+  { src: "/images/flashcards/letter-c.png", alt: "Flashcard chữ C", rotate: 8, x: 14 },
+];
+
 export function KidsExperience() {
   const t = useTranslations("kidsExperience");
   const badges = t.raw("badges") as string[];
-
-  const sampleCards = [
-    { emoji: "🍎", vi: "Quả táo", en: "Apple" },
-    { emoji: "🐟", vi: "Con cá", en: "Fish" },
-    { emoji: "🌙", vi: "Mặt trăng", en: "Moon" },
-  ];
 
   return (
     <section className="py-20 sm:py-24">
@@ -39,28 +40,25 @@ export function KidsExperience() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <div className="relative mx-auto flex max-w-sm items-center justify-center">
-            {sampleCards.map((card, i) => (
+          <div className="relative mx-auto flex h-[340px] max-w-sm items-center justify-center sm:h-[380px]">
+            {SAMPLE_FLASHCARDS.map((card, i) => (
               <div
-                key={card.vi}
-                className="absolute w-56 rounded-[2rem] border border-espresso-100 bg-cream-50 p-6 text-center shadow-soft-lg"
+                key={card.src}
+                className="absolute w-56 overflow-hidden rounded-[1.75rem] border border-espresso-100 bg-cream-50 shadow-soft-lg transition-transform duration-300 hover:-translate-y-1 sm:w-64"
                 style={{
-                  transform: `rotate(${(i - 1) * 8}deg) translateX(${(i - 1) * 14}px)`,
+                  transform: `rotate(${card.rotate}deg) translateX(${card.x}px)`,
                   zIndex: i === 1 ? 10 : 1,
                 }}
               >
-                <div className="text-6xl">{card.emoji}</div>
-                <p className="mt-4 font-display text-2xl font-semibold text-espresso-900">{card.vi}</p>
-                <p className="text-espresso-400">{card.en}</p>
-                <button className="mt-4 inline-flex items-center gap-2 rounded-full bg-terracotta-100 px-4 py-2 text-sm font-medium text-terracotta-700">
-                  <Volume2 size={16} />
-                  {t("card.listen")}
-                </button>
+                <Image
+                  src={card.src}
+                  alt={card.alt}
+                  width={560}
+                  height={700}
+                  className="aspect-[4/5] w-full object-cover"
+                />
               </div>
             ))}
-            <div className="invisible w-56 p-6">
-              <div className="text-6xl">.</div>
-            </div>
           </div>
         </Reveal>
       </Container>
