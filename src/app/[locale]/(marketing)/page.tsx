@@ -3,7 +3,7 @@ import { Trust } from "@/components/marketing/sections/trust";
 import { Audience } from "@/components/marketing/sections/audience";
 import { HowItWorks } from "@/components/marketing/sections/how-it-works";
 import { KidsExperience } from "@/components/marketing/sections/kids-experience";
-import { Programs } from "@/components/marketing/sections/programs";
+import { Pricing } from "@/components/marketing/sections/pricing";
 import { Teachers } from "@/components/marketing/sections/teachers";
 import { Testimonials } from "@/components/marketing/sections/testimonials";
 import { Faq } from "@/components/marketing/sections/faq";
@@ -17,7 +17,7 @@ export default function HomePage() {
       <Audience />
       <HowItWorks />
       <KidsExperience />
-      <Programs />
+      <Pricing />
       <Teachers />
       <Testimonials />
       <Faq />

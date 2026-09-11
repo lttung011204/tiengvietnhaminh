@@ -4,7 +4,7 @@
   },
   "nav": {
     "home": "Home",
-    "programs": "Programs",
+    "programs": "Tuition",
     "teachers": "Teachers",
     "faq": "FAQ",
     "login": "Log in",
@@ -15,7 +15,7 @@
     "title": "Help your child stay connected to <highlight>Vietnamese</highlight> language, family and culture",
     "subtitle": "Online Vietnamese lessons designed for Vietnamese children and families growing up abroad — warm, structured, and easy to follow along with.",
     "ctaPrimary": "Book a Free Trial Class",
-    "ctaSecondary": "Explore Programs",
+    "ctaSecondary": "View Tuition",
     "badge1": "Free trial class",
     "badge2": "Dedicated Vietnamese teachers"
   },
@@ -58,15 +58,19 @@
     "demoCta": "Book a Free Trial Class"
   },
   "programs": {
-    "title": "Programs",
-    "subtitle": "A clear path for every age and level.",
-    "levels": {
-      "beginner": "Beginner",
-      "elementary": "Elementary",
-      "intermediate": "Intermediate",
-      "advanced": "Advanced"
-    },
-    "viewProgram": "View program"
+    "title": "Tuition",
+    "subtitle": "One transparent rate — choose the package that fits your child's journey.",
+    "unit": "300,000₫ / lesson · 60 minutes per lesson",
+    "packages": [
+      { "lessons": 20, "price": "6,000,000₫", "tag": "", "desc": "A great way to get started and build the basics." },
+      { "lessons": 50, "price": "15,000,000₫", "tag": "Most popular", "desc": "The choice most families trust to see real progress." },
+      { "lessons": 60, "price": "18,000,000₫", "tag": "Long-term journey", "desc": "For a structured path that carries through the whole year." }
+    ],
+    "packageLabel": "{count}-Lesson Package",
+    "perLesson": "300,000₫ / lesson",
+    "perLessonDuration": "60 minutes / lesson",
+    "cta": "Book a Trial First",
+    "note": "Book a free trial before choosing a package — we'll recommend the best fit after the trial class."
   },
   "teachers": {
     "title": "Teachers who truly care",

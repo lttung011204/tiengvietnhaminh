@@ -4,7 +4,7 @@
   },
   "nav": {
     "home": "Trang chủ",
-    "programs": "Chương trình học",
+    "programs": "Học phí",
     "teachers": "Giáo viên",
     "faq": "Hỏi đáp",
     "login": "Đăng nhập",
@@ -15,7 +15,7 @@
     "title": "Giúp con giữ gìn <highlight>tiếng Việt</highlight>, gắn kết gia đình và cội nguồn",
     "subtitle": "Lớp học tiếng Việt trực tuyến dành cho trẻ em và gia đình Việt Nam lớn lên ở nước ngoài — ấm áp, bài bản và dễ đồng hành.",
     "ctaPrimary": "Đăng ký học thử miễn phí",
-    "ctaSecondary": "Khám phá chương trình học",
+    "ctaSecondary": "Xem học phí",
     "badge1": "Học thử miễn phí",
     "badge2": "Giáo viên người Việt tận tâm"
   },
@@ -58,15 +58,19 @@
     "demoCta": "Đăng ký học thử miễn phí"
   },
   "programs": {
-    "title": "Chương trình học",
-    "subtitle": "Lộ trình rõ ràng theo từng lứa tuổi và trình độ.",
-    "levels": {
-      "beginner": "Sơ cấp",
-      "elementary": "Cơ bản",
-      "intermediate": "Trung cấp",
-      "advanced": "Nâng cao"
-    },
-    "viewProgram": "Xem chương trình"
+    "title": "Học phí",
+    "subtitle": "Một mức giá duy nhất, minh bạch — chọn gói phù hợp với hành trình học của con.",
+    "unit": "300.000₫ / tiết · 60 phút mỗi tiết",
+    "packages": [
+      { "lessons": 20, "price": "6.000.000₫", "tag": "", "desc": "Phù hợp để bắt đầu làm quen và xây nền tảng." },
+      { "lessons": 50, "price": "15.000.000₫", "tag": "Phổ biến nhất", "desc": "Lựa chọn được nhiều gia đình tin chọn để thấy tiến bộ rõ rệt." },
+      { "lessons": 60, "price": "18.000.000₫", "tag": "Đồng hành dài lâu", "desc": "Cho lộ trình học bài bản, xuyên suốt cả năm." }
+    ],
+    "packageLabel": "Gói {count} tiết",
+    "perLesson": "300.000₫ / tiết",
+    "perLessonDuration": "60 phút / tiết",
+    "cta": "Đăng ký học thử trước",
+    "note": "Học thử miễn phí trước khi chọn gói — chúng tôi tư vấn gói phù hợp nhất sau buổi học thử."
   },
   "teachers": {
     "title": "Giáo viên tâm huyết, đồng hành cùng con",
