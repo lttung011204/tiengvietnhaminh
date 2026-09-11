@@ -9,7 +9,7 @@ export function Programs() {
 
   const cards = [
     { key: "kids", emoji: "🧒", titleKey: "audience.kids.title" },
-    { key: "adults", emoji: "🌱", titleKey: "audience.adults.title" },
+    { key: "adults", emoji: "🧑", titleKey: "audience.adults.title" },
   ] as const;
 
   const tAudience = useTranslations("audience");
