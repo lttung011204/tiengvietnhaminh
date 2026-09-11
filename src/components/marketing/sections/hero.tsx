@@ -53,14 +53,14 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
           className="relative"
         >
-          <div className="aspect-[4/5] w-full rounded-[2.5rem] bg-gradient-to-br from-terracotta-300 via-terracotta-400 to-gold-300 p-2 shadow-soft-lg">
-            <div className="flex h-full w-full flex-col items-center justify-center gap-5 rounded-[2rem] bg-cream-50/90 text-center">
+          <div className="aspect-[4/5] w-full overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-terracotta-300 via-terracotta-400 to-gold-300 p-2 shadow-soft-lg">
+            <div className="relative h-full w-full overflow-hidden rounded-[2rem]">
               <Image
-                src="/images/logo.png"
-                alt="Tiếng Việt Nhà Mình"
-                width={280}
-                height={280}
-                className="h-48 w-48 rounded-full shadow-soft sm:h-56 sm:w-56"
+                src="/images/scene-desk-flashcards.png"
+                alt="Bé học tiếng Việt cùng flashcard tại nhà"
+                fill
+                sizes="(min-width: 1024px) 40vw, 90vw"
+                className="object-cover"
                 priority
               />
             </div>
