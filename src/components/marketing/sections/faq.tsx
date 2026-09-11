@@ -27,13 +27,15 @@ export function Faq() {
             return (
               <div key={item.q}>
                 <button
-                  className="flex w-full items-center justify-between gap-4 py-5 text-left"
+                  className="group flex w-full items-center justify-between gap-4 rounded-xl px-3 py-5 -mx-3 text-left transition-colors duration-200 hover:bg-terracotta-50/60"
                   onClick={() => setOpenIndex(isOpen ? null : i)}
                   aria-expanded={isOpen}
                 >
-                  <span className="font-medium text-espresso-800">{item.q}</span>
+                  <span className="font-medium text-espresso-800 transition-transform duration-200 group-hover:translate-x-1">
+                    {item.q}
+                  </span>
                   <ChevronDown
-                    className={`shrink-0 text-terracotta-500 transition-transform ${isOpen ? "rotate-180" : ""}`}
+                    className={`shrink-0 text-terracotta-500 transition-transform duration-200 group-hover:scale-110 ${isOpen ? "rotate-180" : ""}`}
                     size={20}
                   />
                 </button>
