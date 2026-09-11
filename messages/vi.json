@@ -41,7 +41,7 @@
       "highlights": [
         "Mỗi bài học là bộ flashcard 8–15 thẻ: hình ảnh, từ vựng, phát âm và ví dụ đơn giản",
         "Sau flashcard là hoạt động ôn tập nhẹ nhàng: ghép hình, nghe và chọn, trắc nghiệm đơn giản",
-        "Giáo viên đồng hành 1 kèm 1 hoặc nhóm nhỏ, theo dõi tiến độ từng buổi học",
+        "Giáo viên đồng hành 1 kèm 1 riêng biệt, theo dõi sát tiến độ từng buổi học",
         "Phù hợp trẻ từ 4 tuổi trở lên — ưu tiên sự hứng thú, không tạo áp lực bài vở"
       ]
     },
@@ -118,7 +118,7 @@
       { "q": "Con mình nên bắt đầu học từ mấy tuổi?", "a": "Chương trình dành cho trẻ từ 4 tuổi trở lên. Buổi học thử sẽ giúp xác định lộ trình phù hợp nhất với độ tuổi và khả năng hiện tại của bé." },
       { "q": "Lớp học diễn ra trực tuyến như thế nào?", "a": "Học viên học cùng giáo viên qua video call theo lịch đã đặt, kết hợp bài học flashcard hoặc tài liệu trên hệ thống để tự ôn tập thêm." },
       { "q": "Ba mẹ không giỏi tiếng Việt có đồng hành được không?", "a": "Hoàn toàn được. Hệ thống học có phụ đề tiếng Anh và phụ huynh chỉ cần theo dõi tiến độ, không cần trực tiếp dạy." },
-      { "q": "Học theo nhóm hay 1 kèm 1?", "a": "Cả hai hình thức đều có. Đội ngũ sẽ tư vấn lựa chọn phù hợp sau buổi học thử." },
+      { "q": "Lớp học là 1 kèm 1 hay theo nhóm?", "a": "Nhà Mình chỉ tổ chức lớp học 1 kèm 1 giữa giáo viên và học viên — đảm bảo sự tập trung, tốc độ học phù hợp và giáo viên có thể theo sát từng bạn nhỏ hoặc học viên người lớn." },
       { "q": "Múi giờ ở nước ngoài có sắp xếp được không?", "a": "Có. Chúng tôi ưu tiên sắp xếp lịch học linh hoạt theo múi giờ của từng gia đình." }
     ]
   },

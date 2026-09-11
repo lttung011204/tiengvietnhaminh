@@ -1,6 +1,6 @@
 "use client";
 
-import { useForm } from "react-hook-form";
+import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { useTranslations } from "next-intl";
@@ -8,6 +8,7 @@ import { useRouter } from "@/i18n/navigation";
 import { useState } from "react";
 import { submitTrialLead } from "@/app/[locale]/(marketing)/trial/actions";
 import { Button } from "@/components/ui/button";
+import { LocationAutocomplete } from "@/components/marketing/location-autocomplete";
 
 const schema = z.object({
   parentName: z.string().min(1),
@@ -37,6 +38,7 @@ export function TrialForm() {
   const {
     register,
     handleSubmit,
+    control,
     formState: { errors, isSubmitting },
   } = useForm<FormValues>({ resolver: zodResolver(schema) });
 
@@ -72,7 +74,18 @@ export function TrialForm() {
         </div>
         <div>
           <label className={labelClass}>{t("fields.country")}</label>
-          <input className={inputClass} placeholder={t("placeholders.country")} {...register("country")} />
+          <Controller
+            name="country"
+            control={control}
+            render={({ field }) => (
+              <LocationAutocomplete
+                value={field.value ?? ""}
+                onChange={field.onChange}
+                placeholder={t("placeholders.country")}
+                className={inputClass}
+              />
+            )}
+          />
         </div>
       </div>
 
