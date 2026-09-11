@@ -49,7 +49,13 @@
     "subtitle": "Each lesson is a set of visual flashcards — simple, playful, and easy for young learners to love.",
     "badges": ["Picture flashcards", "Native Vietnamese audio", "Gentle review"],
     "card": { "emoji": "🍎", "word": "Quả táo", "translation": "Apple", "listen": "Listen" },
-    "note": "After the flashcards, a short review activity follows — matching, listening, or simple multiple choice."
+    "note": "After the flashcards, a short review activity follows — matching, listening, or simple multiple choice.",
+    "tryIt": "Try it yourself below 👇",
+    "demoProgress": "{current} / {total} cards",
+    "demoComplete": "You just learned {count} words! 🎉",
+    "demoCompleteDesc": "This is just a small taste of the full lesson. Book a free trial to experience it fully with a teacher.",
+    "demoRestart": "Try again",
+    "demoCta": "Book a Free Trial Class"
   },
   "programs": {
     "title": "Programs",
