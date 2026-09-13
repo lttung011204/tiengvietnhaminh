@@ -90,15 +90,14 @@
   "programs": {
     "title": "Học phí",
     "subtitle": "Một mức giá duy nhất, minh bạch — chọn gói phù hợp với hành trình học của con.",
-    "unit": "300.000₫ / tiết · 60 phút mỗi tiết",
-    "unitUsd": "≈ $12 USD / tiết",
+    "durationBadge": "60 phút mỗi tiết",
+    "formatBadge": "Lớp học online 1 kèm 1",
     "packages": [
-      { "lessons": 20, "price": "6.000.000₫", "priceUsd": "≈ $240", "tag": "", "desc": "Phù hợp để bắt đầu làm quen và xây nền tảng." },
-      { "lessons": 50, "price": "15.000.000₫", "priceUsd": "≈ $600", "tag": "Phổ biến nhất", "desc": "Lựa chọn được nhiều gia đình tin chọn để thấy tiến bộ rõ rệt." },
-      { "lessons": 60, "price": "18.000.000₫", "priceUsd": "≈ $720", "tag": "Đồng hành dài lâu", "desc": "Cho lộ trình học bài bản, xuyên suốt cả năm." }
+      { "lessons": 20, "price": "7.000.000₫", "priceUsd": "≈ $280 USD", "perLesson": "350.000₫ / tiết", "tag": "", "desc": "Phù hợp để bắt đầu làm quen và xây nền tảng.", "benefit": "Giá tốt cho giai đoạn khởi đầu" },
+      { "lessons": 50, "price": "15.000.000₫", "priceUsd": "≈ $600 USD", "perLesson": "300.000₫ / tiết", "tag": "Phổ biến nhất", "desc": "Lựa chọn được nhiều gia đình tin chọn để thấy tiến bộ rõ rệt.", "benefit": "Cân bằng chi phí và hiệu quả" },
+      { "lessons": 100, "price": "27.000.000₫", "priceUsd": "≈ $1,080 USD", "perLesson": "270.000₫ / tiết", "tag": "Tiết kiệm nhất", "desc": "Cho lộ trình học bài bản, dài hạn và duy trì kết quả tốt nhất.", "benefit": "Tiết kiệm chi phí tối ưu" }
     ],
     "packageLabel": "Gói {count} tiết",
-    "perLesson": "300.000₫ / tiết",
     "perLessonDuration": "60 phút / tiết",
     "cta": "Đăng ký học thử trước",
     "note": "Học thử miễn phí trước khi chọn gói — chúng tôi tư vấn gói phù hợp nhất sau buổi học thử.",

@@ -4,7 +4,15 @@ import { Reveal } from "@/components/motion/reveal";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 
-type Package = { lessons: number; price: string; priceUsd: string; tag: string; desc: string };
+type Package = {
+  lessons: number;
+  price: string;
+  priceUsd: string;
+  perLesson: string;
+  tag: string;
+  desc: string;
+  benefit: string;
+};
 
 export function Pricing() {
   const t = useTranslations("programs");
@@ -18,10 +26,10 @@ export function Pricing() {
           <p className="mt-4 text-lg text-espresso-500">{t("subtitle")}</p>
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <p className="inline-block rounded-full bg-terracotta-100 px-4 py-1.5 text-sm font-semibold text-terracotta-700">
-              {t("unit")}
+              {t("durationBadge")}
             </p>
             <p className="inline-block rounded-full bg-gold-100 px-4 py-1.5 text-sm font-semibold text-gold-700">
-              {t("unitUsd")}
+              {t("formatBadge")}
             </p>
           </div>
         </Reveal>
@@ -52,12 +60,18 @@ export function Pricing() {
                   </p>
                   <p className="mt-3 font-display text-4xl font-bold text-terracotta-600">{pkg.price}</p>
                   <p className="mt-1 text-sm font-medium text-gold-700">{pkg.priceUsd}</p>
-                  <p className="mt-1 text-sm text-espresso-400">{t("perLesson")}</p>
+                  <p className="mt-1 text-sm text-espresso-400">{pkg.perLesson}</p>
                   <p className="mt-4 flex-1 text-sm leading-relaxed text-espresso-500">{pkg.desc}</p>
-                  <p className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-espresso-600">
-                    <Check size={16} className="text-terracotta-500" />
-                    {t("perLessonDuration")}
-                  </p>
+                  <div className="mt-4 space-y-2">
+                    <p className="inline-flex items-center gap-2 text-sm font-medium text-espresso-600">
+                      <Check size={16} className="shrink-0 text-terracotta-500" />
+                      {t("perLessonDuration")}
+                    </p>
+                    <p className="flex items-center gap-2 text-sm font-medium text-espresso-600">
+                      <Check size={16} className="shrink-0 text-terracotta-500" />
+                      {pkg.benefit}
+                    </p>
+                  </div>
                   <Button href="/trial" variant={featured ? "primary" : "secondary"} className="mt-6">
                     {t("cta")}
                   </Button>

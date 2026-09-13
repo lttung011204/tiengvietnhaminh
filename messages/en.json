@@ -90,15 +90,14 @@
   "programs": {
     "title": "Tuition",
     "subtitle": "One transparent rate — choose the package that fits your child's journey.",
-    "unit": "300,000₫ / lesson · 60 minutes per lesson",
-    "unitUsd": "≈ $12 USD / lesson",
+    "durationBadge": "60 minutes per lesson",
+    "formatBadge": "One-on-one online classes",
     "packages": [
-      { "lessons": 20, "price": "6,000,000₫", "priceUsd": "≈ $240", "tag": "", "desc": "A great way to get started and build the basics." },
-      { "lessons": 50, "price": "15,000,000₫", "priceUsd": "≈ $600", "tag": "Most popular", "desc": "The choice most families trust to see real progress." },
-      { "lessons": 60, "price": "18,000,000₫", "priceUsd": "≈ $720", "tag": "Long-term journey", "desc": "For a structured path that carries through the whole year." }
+      { "lessons": 20, "price": "7,000,000₫", "priceUsd": "≈ $280 USD", "perLesson": "350,000₫ / lesson", "tag": "", "desc": "A great way to get started and build the basics.", "benefit": "Best rate to get started" },
+      { "lessons": 50, "price": "15,000,000₫", "priceUsd": "≈ $600 USD", "perLesson": "300,000₫ / lesson", "tag": "Most popular", "desc": "The choice most families trust to see real progress.", "benefit": "Balanced cost and results" },
+      { "lessons": 100, "price": "27,000,000₫", "priceUsd": "≈ $1,080 USD", "perLesson": "270,000₫ / lesson", "tag": "Best value", "desc": "For a structured, long-term path with the best sustained results.", "benefit": "Maximum savings" }
     ],
     "packageLabel": "{count}-Lesson Package",
-    "perLesson": "300,000₫ / lesson",
     "perLessonDuration": "60 minutes / lesson",
     "cta": "Book a Trial First",
     "usdDisclaimer": "USD amounts are approximate (estimated at ~25,000₫/USD) for reference only — billing is in Vietnamese dong (VND).",
